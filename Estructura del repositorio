@@ -1,0 +1,40 @@
+nueva-esperanza-ml/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── pyproject.toml
+│
+├── data/
+│   ├── samples/                 # Ejemplos reales (anonimizados) de Guatrache
+│   │   ├── campo_5_2024.csv
+│   │   ├── sentinel_preview.tif
+│   │   └── drone_rgb_sample.jpg
+│   └── models/                  # Modelos preentrenados (livianos)
+│       ├── yield_predictor_v2.joblib
+│       └── stress_detector_v1.joblib
+│
+├── src/
+│   └── nuevaesperanza/
+│       ├── __init__.py
+│       ├── core/
+│       │   ├── yield_predictor.py      # Modelo de pronóstico de rendimiento
+│       │   ├── stress_detector.py      # Detección de estrés por imagen RGB
+│       │   └── irrigation_optimizer.py # Zonificación y sugerencias
+│       ├── io/
+│       │   ├── sentinel_loader.py      # Descarga offline de Sentinel-2 (vía USB)
+│       │   ├── drone_processor.py      # Procesamiento de fotos de dron económico
+│       │   └── exporter.py             # PDF, mapa SVG, CSV
+│       └── cli/
+│           └── main.py                 # Interfaz para técnicos (modo campo)
+│
+├── notebooks/
+│   └── 01_model_training.ipynb        # Cómo reentrenar con nuevos datos (opcional)
+│
+├── docs/
+│   ├── guia_tecnico_guatrache.md       # Paso a paso para el técnico local
+│   └── protocolo_datos.md              # Qué datos usar, cómo tomarlos, privacidad
+│
+└── scripts/
+    ├── download_sentinel_offline.py    # Para actualizar datos satelitales vía USB
+    └── calibrate_drone.py             # Calibración de cámara común (Smartphone/drone barato)
