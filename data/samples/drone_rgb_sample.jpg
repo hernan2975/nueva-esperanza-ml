@@ -1,0 +1,8 @@
+para generar una imagen simulada realista el siguiente script 
+
+scripts/generate_drone_sample.py
+Ejecuta con:
+
+``` bash
+python scripts/generate_drone_sample.py
+```
