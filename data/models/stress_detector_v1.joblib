@@ -1,0 +1,5 @@
+No se pueden incluir los binarios aquí, pero sí se puede generar unos con este script de entrenamiento mínimo (para incluir en el repo como preentrenados):
+
+scripts/train_models.py
+
+se ejecuta para llenar y completar Data
