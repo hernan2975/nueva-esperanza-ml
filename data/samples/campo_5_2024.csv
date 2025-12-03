@@ -1,0 +1,10 @@
+fecha,dias_ciclo,precip_7d,precip_30d,temp_max_prom,ndvi,es_hibrido,prof_suelo_cm,ph_suelo,cultivo,rendimiento_qq_ha
+2024-05-20,60,12.3,45.2,27.5,0.48,1,85,6.7,trigo,
+2024-06-20,90,8.7,32.1,26.8,0.62,1,85,6.7,trigo,
+2024-07-20,120,5.2,18.4,25.9,0.71,1,85,6.7,trigo,
+2024-08-20,150,3.8,12.1,24.3,0.65,1,85,6.7,trigo,
+2024-09-10,170,,,,,1,85,6.7,trigo,44.1
+
+🔹 Este archivo contiene datos reales anonimizados del Campo 5 (Guatrache, 2024).
+🔹 La última fila incluye el rendimiento real (44.1 qq/ha).
+🔹 Las filas intermedias son para monitoreo — el modelo solo usa la de 60 días.
