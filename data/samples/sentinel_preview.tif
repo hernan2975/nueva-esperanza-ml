@@ -1,0 +1,3 @@
+No se puede incluir binario aquí, pero se puede generar uno real y liviano con el script "scripts/generate_sample_sentinel.py"
+Ejecuta con:
+python scripts/generate_sample_sentinel.py
